@@ -12,6 +12,6 @@
 
 ## Entornos
 
-* [Tipos de entorno](entornos/entornos/README.md)
-  * [Entorno de desarrollo](entornos/entornos/entorno-de-desarrollo.md)
+* [Definiendo entornos](entornos/definiendo-entornos/README.md)
+  * [Entorno de desarrollo](entornos/definiendo-entornos/entorno-de-desarrollo.md)
 

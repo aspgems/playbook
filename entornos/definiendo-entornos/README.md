@@ -1,4 +1,4 @@
-# Tipos de entorno
+# Definiendo entornos
 
 Un proyecto puede tener diferentes entornos. Por defecto, cada proyecto, tiene los siguientes:
 
