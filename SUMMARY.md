@@ -1,6 +1,10 @@
 # Table of contents
 
-* [Checklist de proyectos](README.md)
+* [Playbook de ASPgems](README.md)
+
+## Proyectos
+
+* [Checklist](proyectos/checklist.md)
 
 ## Entornos
 
