@@ -10,3 +10,8 @@
 * [Gemfile](rails-1/gemfile.md)
 * [Gemas oficiales](rails-1/gemas-oficiales.md)
 
+## Entornos
+
+* [Tipos de entorno](entornos/entornos/README.md)
+  * [Entorno de desarrollo](entornos/entornos/entorno-de-desarrollo.md)
+
