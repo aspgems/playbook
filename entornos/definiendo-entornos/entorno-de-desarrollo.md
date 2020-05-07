@@ -1,6 +1,6 @@
 # Entorno de desarrollo
 
-La función de este entorno es la de permitir que los desarrolladores realicen su trabajo de forma eficiente y con el menor número de trabas posible
+La función de este entorno es la de permitir que los desarrolladores realicen su trabajo de forma eficiente y con el menor número de trabas posible.
 
 Cada desarrollador es responsable de su propio entorno por lo que debería tener una forma lo más sencilla posible de arrancarlo en modo desarrollo con la mínima configuración e instalación posibles. Para esto seguimos el principio de convencion sobre configuración, de forma que el proyecto es instalable y ejecutable con un mínimo esfuerzo, pero los desarrolladores pueden modificarlo a su gusto sin trabas.
 
