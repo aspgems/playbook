@@ -4,8 +4,6 @@ description: 'Todos los proyectos en ASPgems deberían tener, por defecto, lo si
 
 # Checklist
 
-
-
 ## Cuentas y servicios de terceros
 
 _Todos los servicios que se utilicen estarán debajo de la cuenta del cliente._
@@ -43,6 +41,20 @@ Utilidades para el desarrollo en local de la aplicación
 * Instalación automática
 * Generación automática de datos de prueba
 * Importación segura de datos de otros entornos \(producción, staging...\)
+
+## Testing
+
+El proyecto tiene que estar preparado para añadir tests
+
+* Se pueden añadir tests unitarios
+* Se pueden añadir tests de aceptación
+* Se pueden añadir tests de aceptación con javascript
+
+## Datos
+
+* Backups
+* Ofuscación de datos
+* Migración de datos
 
 ## README.md
 

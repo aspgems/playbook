@@ -1,6 +1,6 @@
 # Entorno de desarrollo
 
-La fucnión de este entorno es la de permitir que los desarrolladores realicen su trabajo de forma eficiente y con el menor número de trabas posible
+La función de este entorno es la de permitir que los desarrolladores realicen su trabajo de forma eficiente y con el menor número de trabas posible
 
 Cada desarrollador es responsable de su propio entorno por lo que debería tener una forma lo más sencilla posible de arrancarlo en modo desarrollo con la mínima configuración e instalación posibles. Para esto seguimos el principio de convencion sobre configuración, de forma que el proyecto es instalable y ejecutable con un mínimo esfuerzo, pero los desarrolladores pueden modificarlo a su gusto sin trabas.
 
@@ -24,7 +24,7 @@ La infraestructura por defecto del entorno en local se hará con docker-compose.
 * Tiene que haber una forma sencilla de sobreescribir sólo aquellas configuraciones que queramos cambiar. Por ejemplo mediante variables de entorno o ficheros de configuración previamente ignorados del repositorio
 * Debería minimizarse el uso de secretos en local
 
-Un ejemplo de esto es [el uso de chamber en rails](https://app.gitbook.com/@aspgems/s/playbook/~/drafts/-M5Rt514zVx_C6TWT_-B/rails-1/configuracion-de-proyectos-rails-con-chamber-y-docker-compose) 
+Un ejemplo de esto es [el uso de chamber en rails](https://aspgems.gitbook.io/playbook/rails-1/configuracion-de-proyectos-rails-con-chamber-y-docker-compose) 
 
 ## Datos
 
