@@ -5,11 +5,14 @@
 ## Proyectos
 
 * [Checklist](proyectos/checklist.md)
+* [Untitled](proyectos/untitled.md)
 
 ## Entornos
 
 * [Definiendo entornos](entornos/definiendo-entornos/README.md)
-  * [Entorno de desarrollo](entornos/definiendo-entornos/entorno-de-desarrollo.md)
+  * [Untitled](entornos/definiendo-entornos/untitled.md)
+  * [Entorno de desarrollo](entornos/definiendo-entornos/entorno-de-desarrollo/README.md)
+    * [Docker y docker-compose](entornos/definiendo-entornos/entorno-de-desarrollo/docker-y-docker-compose.md)
 
 ## Rails <a id="rails-1"></a>
 
