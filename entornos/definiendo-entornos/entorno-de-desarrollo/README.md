@@ -11,7 +11,7 @@ Cada desarrollador es responsable de su propio entorno por lo que debería tener
 
 ## Infraestructura
 
-La infraestructura por defecto del entorno en local se hará con docker-compose. Los proyectos tendrán por defecto:
+La infraestructura por defecto del entorno en local se hará con docker-compose tal y como se describe [aquí](https://aspgems.gitbook.io/playbook/entornos/definiendo-entornos/entorno-de-desarrollo/docker-y-docker-compose). Los proyectos tendrán por defecto:
 
 * Un docker-compose con los servicios de terceros necesarios para el desarrollo \(bases de datos, sistemas de colas, etc.\)
 * Estará ignorado el fichero `docker-compose.override.yml` para permitir que cada desarrollador extienda la infraestructura básica a su antojo \(por ejemplo, añadiendo la propia aplicación como un servicio más\)
