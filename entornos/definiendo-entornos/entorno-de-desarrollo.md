@@ -16,6 +16,18 @@ La infraestructura por defecto del entorno en local se hará con docker-compose.
 * Un docker-compose con los servicios de terceros necesarios para el desarrollo \(bases de datos, sistemas de colas, etc.\)
 * Estará ignorado el fichero `docker-compose.override.yml` para permitir que cada desarrollador extienda la infraestructura básica a su antojo \(por ejemplo, añadiendo la propia aplicación como un servicio más\)
 * Si el equipo así lo ve conveniente puede haber diferentes extensiones para arrancar en local el proyecto en diferentes modos \(por ejemplo, `docker-compose.production.yml` o `docker-compose.test.yml`
+* Cada desarrollador podrá tener a su disposición el fichero `Dockerfile.local` que estará ignorado en `git`
+
+### Imágenes docker para desarrollo
+
+El proyecto podrá tener, **de forma opcional**, una imagen oficial para desarrollo. Esta imagen se podrá crear mediante el uso de un Dockerfile utilizando la funcionalidad [multistage build](https://docs.docker.com/develop/develop-images/multistage-build/) de docker o utilizando un Dockerfile específico para ello.
+
+En todo caso el fichero `Dockerfile.local` estará ignorado en el `.gitignore`
+
+```text
+# .gitignore
+Dockerfile.local
+```
 
 ### Configuración de servicios con docker compose
 
