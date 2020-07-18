@@ -85,7 +85,7 @@ Al igual que con rubocop y con brakeman si existieran vulnerabilidades actuales 
 
 Sin embargo la gema bundle-audit no tiene una opción para hacer esto y hay que hacerlo a mano.
 
-Si esto fuera necesario habría, primero que generar el fichero de gemas a ignorar a mano \(llamado `.bundle_audit_config`\), versionarlo y cambiar la tarea de bundler-audit por la siguiente:
+Si esto fuera necesario habría, primero que generar el fichero de gemas a ignorar a mano \(llamado `.bundle_audit_todo`\), versionarlo y cambiar la tarea de bundler-audit por la siguiente:
 
 ```text
 bundle audit:
