@@ -91,7 +91,7 @@ Si esto fuera necesario habría, primero que generar el fichero de gemas a ignor
 bundle audit:
   script:
     - gem install bundler-audit
-    - bundle audit check --update --ignore $(cat .bundler_audit_todo)
+    - bundle audit check --update --ignore $(cat .bundle_audit_todo)
 ```
 
 Un ejemplo del fichero `.bundle_audit_todo` sería el siguiente:
